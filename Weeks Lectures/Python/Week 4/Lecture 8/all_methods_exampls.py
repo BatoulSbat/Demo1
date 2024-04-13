@@ -26,3 +26,6 @@ print(person2.age)
 
 #using the static method
 Person.isAdult(32)
+
+
+#class method can get back and modify i.e. add 1, while static method can't
