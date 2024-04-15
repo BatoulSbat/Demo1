@@ -3,12 +3,12 @@ import pandas as pd
 
 #fetch iris dataset
 
-#url = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv' #this is a github link, after navigating to the dataframe on github, we go to raw then we copy the link from there. 
-#df = pd.read_csv(url)
+url = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv' #this is a github link, after navigating to the dataframe on github, we go to raw then we copy the link from there. 
+df = pd.read_csv(url)
 
 #OR 
 #if we download the csv file
-df = pd.read_csv('/Users/BatoulSbat/Desktop/Courses/CoGrammar/Weeks Lectures/Data Science/Week 5/Lecture 1/iris.csv') #use this line if your file is a .csv and in the same directory as the script
+#df = pd.read_csv('/Users/BatoulSbat/Desktop/Courses/CoGrammar/Weeks Lectures/Data Science/Week 5/Lecture 1/iris.csv') #use this line if your file is a .csv and in the same directory as the script
 
 #[] for dataframes, () for methods, {} for changing the name of the column
 
